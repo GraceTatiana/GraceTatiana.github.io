@@ -1,0 +1,42 @@
+#heading {
+    color: rgb(164, 164,0);
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(240, 240, 240);
+    font-family: Lucida Sans Unicode, Helvetica, Arial ;
+    font:22pt;
+    font-weight: bold;
+}
+
+#heading2 {
+    color: rgb(164, 164,0);
+    text-align: left;
+    text-decoration: underline;
+    background-color: rgb(240, 240, 240);
+    font-family: Lucida Sans Unicode, Helvetica, Arial ;
+    font:22pt;
+    font-weight: bold;
+}
+
+
+#comment1 {
+    background-color: rgb(233, 233, 126);
+    margin-left: 5%;
+}
+
+#link {
+    color: rgb(164, 164, 0);
+    text-decoration: underline;
+}
+tbsp{
+    text-decoration: underline;
+}
+body{
+   background-repeat:repeat;
+    
+}
+#backgroundImg{
+    border-image-repeat: repeat;
+    position: fixed;
+    z-index: -2;
+}
