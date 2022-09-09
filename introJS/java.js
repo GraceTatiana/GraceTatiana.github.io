@@ -4,6 +4,9 @@ function myFunctionTest(expected, found) {
     else predicate = expected === found;
     return predicate ? "TEST SUCCEEDED" : "TEST FAILED. Expected " + expected + " found " + found;
 }
+const arraysAreEqual = (a, b) =>
+    a.length === b.length && a.every((v, i) => v === b[i]);
+
 function max(x,y){
     if(x > y){
         return x;
