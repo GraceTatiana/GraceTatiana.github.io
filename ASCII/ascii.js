@@ -5,7 +5,7 @@ window.onload = function () {
     const DEFAULT_ANIMATION_INTERVAL_MS = 250;
     const TURBO_ANIMATION_INTERVAL_MS = 50;
 
-    /* ------ Event listeners ------ */
+    /* ----- Event listeners ----- */
     document.getElementById("animation").addEventListener("change", function () {
         const animation = document.getElementById("animation").value;
         document.getElementById("text-area").value = ANIMATIONS[animation];
