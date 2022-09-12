@@ -52,3 +52,11 @@ select {
     right: 0px;
     position: fixed;
 }
+.custom-link:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: #744abb;
+}
