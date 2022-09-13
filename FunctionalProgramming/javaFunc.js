@@ -12,5 +12,5 @@ let reverse = (str) => [...str].reverse().join("");
 /* 7 Write a function filterLongWords() that takes an array of words and
  an integer i and returns the array of words that are longer */
 
- let filterLongWords = (arrString, int) => arrString.filter(arrString.length > int);
+ let filterLongWords = (arrString, int) => arrString.filter(str => str.length > int);
 
