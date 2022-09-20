@@ -53,5 +53,5 @@ Teacher.prototype.teach = function (subject) {
 }
 
 const me = new Teacher();
-me.initialize("Albert Einstein", 58);
-me.teach("WAP");
+me.initialize("Professor X", 40);
+me.teach("Math");

@@ -1,5 +1,7 @@
-"use strict";
-describe("String Filter", () => {
+" use strict";
+
+describe("Arithmetic expressions", () => {
+ describe("String Filter", () => {
     it("Filter takes an array of banned words and returns " +
         "the string after removing all the banned words", () => {
         assert.equal("This house is not nice!".filter("not"), "This house is nice!");
@@ -17,4 +19,6 @@ describe("Inheritance", () => {
         expect(me instanceof Person).to.be.true;
         expect("Albert Einstein, 58 years old.").to.eql(me.describe());
     });
+});
+
 });
